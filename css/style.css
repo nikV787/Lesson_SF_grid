@@ -41,3 +41,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Шрифты */
+
+html {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* -------------- */
+
