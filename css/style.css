@@ -81,12 +81,19 @@ html {
         max-width: 1110px
     }
 }
+.head {
+    background-color: #EEEFF1;
+}
 
 .head__top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 46px;
+    padding-top: 60px;
+}
+
+.head__logo {
+    margin-top: 3px;
+    margin-left: 3px;
 }
 
 .nav__list {
@@ -97,7 +104,7 @@ html {
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.11rem;
 }
 
 .nav__item a:hover {
