@@ -156,9 +156,20 @@ html {
     margin-top: 51px;
 }
 
+.title {
+    font-weight: 500;
+}
+
 .title--h1 {
     font-size: 48px;
-    font-weight: 500;
+}
+
+.title--h2 {
+    font-size: 32px;
+}
+
+.title--hidden {
+    font-size: 0px;
 }
 
 .button {
@@ -170,4 +181,105 @@ html {
     color: #fff;
     padding: 22px 40px 18px;
     background-color: #34547A;
+}
+
+.about-me__title {
+    margin-top: 114px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.about-me__text {
+    width: 50%;
+    margin: 42px auto 0;
+    text-align: center;
+    line-height: 164.1%;
+}
+
+.progress {
+    margin-top: 91px;
+    background-color: #34547A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.progress__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+
+}
+
+.progress__item {
+    margin-left: 8px;
+    padding-right: 42px;
+    align-items: self-end;
+}
+
+.achievement {
+    display: flex;
+}
+
+.achievement__text {
+    width: 50%;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.achievement__text-extr {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.skills {
+    padding-top: 101px;
+    padding-bottom: 100px;
+}
+
+.skills__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__col{
+    flex-basis: 500%;
+    margin-left: -11px;
+}
+
+.skills__title {
+    margin-top: 106px;
+    margin-bottom: 47px;
+}
+
+.skill {
+    margin-bottom: 29px;
+    padding-bottom: 2px;
+}
+
+.skill__title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 17px;
+}
+
+.skill__bar {
+    width: 445px;
+    height: 4px;
+    background-color: #C4C4C4;
+}
+
+.skill__bar::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 350px;
+    height: 4px;
+    background-color: #34547A;
+}
+
+.skills__photo {
+    margin-right: -29px;
 }
