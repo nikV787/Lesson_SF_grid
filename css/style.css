@@ -58,6 +58,14 @@ html {
     margin-left: auto
 }
 
+.text--under-title {
+    width: 50%;
+    color: #727272;
+    text-align: center;
+    margin: 42px auto 0;
+    line-height: 164.1%;
+}
+
 @media (min-width: 576px) {
     .container {
         max-width: 540px
@@ -148,6 +156,7 @@ html {
 }
 
 .first-screen__text {
+    color: #727272;
     margin-top: 50px;
     line-height: 164.1%;
 }
@@ -187,13 +196,6 @@ html {
     margin-top: 114px;
     margin-left: 15px;
     text-align: center;
-}
-
-.about-me__text {
-    width: 50%;
-    margin: 42px auto 0;
-    text-align: center;
-    line-height: 164.1%;
 }
 
 .progress {
@@ -282,4 +284,39 @@ html {
 
 .skills__photo {
     margin-right: -29px;
+}
+
+.work {
+    padding-top: 105px;
+    padding-bottom: 100px;
+    background-color: #EEEFF1;
+}
+
+.work__title {
+    text-align: center;
+}
+
+.work__text {
+    margin-bottom: 49px;
+}
+
+.work__img {
+    display: block;
+}
+
+.work__img-container {
+    width: 100%;
+    height: 100%;
+    margin-left: 8px;
+    position: relative;
+}
+
+.work__img-container::after {
+    content: url('../img/play-button.svg');
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
 }
