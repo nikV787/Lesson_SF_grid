@@ -83,6 +83,7 @@ html {
 }
 .head {
     background-color: #EEEFF1;
+    padding-bottom: 157px;
 }
 
 .head__top {
@@ -129,4 +130,44 @@ html {
     .nav__item:last-child {
         padding-right: 0;
     }
+}
+
+.first-screen {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 139px;
+}
+
+.first-screen__img {
+    padding: 17px 90px;
+}
+
+.first-screen__content {
+    width: 50%;
+    padding-left: 40px;
+}
+
+.first-screen__text {
+    margin-top: 50px;
+    line-height: 164.1%;
+}
+
+.first-screen__button {
+    margin-top: 51px;
+}
+
+.title--h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.button {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 164.1%;
+    color: #fff;
+    padding: 22px 40px 18px;
+    background-color: #34547A;
 }
